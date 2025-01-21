@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   header, footer {
+    text-align: center;
+    padding: 10px 0;
+   }
+   /* Main Layout */
+   .main-content {
+    display: grid;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    gap: 10px; /* Adds space between columns */
+    padding: 10px;
+   }
+   .imageone, .imagetwo, .imagethree, .imagefour, .imagefive, .imagesix {
+    flex: 1; /* Distributes equal space */
+    padding: 15px;
+    justify-content: center;
+    align-items:center;
+    
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   }
+   .imageone:hover, .imagetwo:hover, .imagethree:hover, .imagefour:hover, .imagefive:hover, .imagesix:hover {
+      transform: scale(1.5);
+   }
+   /* Responsive Design */
+   @media (max-width: 768px) {
+    .main-content {
+    flex-direction: column; /* Stacks the columns vertically */
+    }
+   }

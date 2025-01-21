@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:auto;
+    box-sizing: border-box;
+   }
+   /* Main Layout */
+   .main-content {
+    display:flex ;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between columns */
+    padding: 10px;
+    height: 100vh;
+   }
+   .cardone, .cardtwo, .cardthree {
+    flex:1;
+    padding: 15px;
+    text-align : center;
+    background-color:white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   }
+   .cardone:hover, .cardtwo:hover, .cardthree:hover {
+       background-color: limegreen;
+       color: white;
+       box-shadow: 5px 5px #ccc;
+       transform: scaleY(1.1);
+   }
+   /* Responsive Design */
+   @media (max-width: 768px) {
+    .main-content {
+    flex-direction: column; /* Stacks the columns vertically */
+    }
+   }
