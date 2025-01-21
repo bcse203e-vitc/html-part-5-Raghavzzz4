@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Custom Buttons</title>
+    </head>
+    <style>
+        .Sbutton{
+            background-image: linear-gradient(red, yellow);
+            margin-right: 20px;
+        }
+        .Jbutton{
+            border-width: 3px;
+            margin-right:20px;
+            transition: border-color 1s;
+        }
+        .Jbutton:hover{
+            border-color: aqua; 
+        }
+        .Tbutton{
+               transition: box-shadow ,1s;
+        }
+        .Tbutton:hover{
+            box-shadow: 1px 1px 5px 2px red;
+        }
+    </style>
+    <body>
+        <button class="Sbutton">Subscribe</button>
+        <button class="Jbutton">Join</button>
+        <button class="Tbutton">Tweet</button>
+    </body>
+</html>
