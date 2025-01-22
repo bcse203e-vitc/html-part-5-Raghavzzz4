@@ -1,0 +1,22 @@
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header h1 {
+    
+    font-size: 2rem;
+    animation: colorChange 5s infinite;
+}
+
+header:hover h1 {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
