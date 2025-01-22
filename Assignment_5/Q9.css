@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.pricing-table {
+    display: flex;
+    gap: 20px;
+}
+
+.plan {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.plan h2 {
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.plan button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background-color: #0056b3;
+}
+
+.popular {
+    background-color: #ffd700;
+}
+.premium{
+    background-color: purple;
+}
+p .pop:hover{
+
+}
